@@ -14,7 +14,8 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-
+TARGET_HAS_UDFPS := false
+EXTRA_UDFPS_ANIMATIONS := false
 
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
