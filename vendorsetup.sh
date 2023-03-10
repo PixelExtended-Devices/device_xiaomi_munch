@@ -14,7 +14,7 @@ git clone --depth=1 https://github.com/PixelExtended-Devices/kernel_xiaomi_sm825
 
 echo 'Cloning Vendor tree [3/7]'
 # Vendor Tree
-git clone --depth=1 https://gitlab.com/Vincent4440/vendor_xiaomi_munch.git -b trece vendor/xiaomi/munch
+git clone --depth=1 https://gitlab.com/Vincent4440/vendor_xiaomi_munch -b trece vendor/xiaomi/munch
 
 echo 'Cloning Vendor-Common tree [4/7]'
 # Vendor-Common Tree
