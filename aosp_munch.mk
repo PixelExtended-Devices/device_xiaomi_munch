@@ -16,6 +16,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_HAS_UDFPS := false
 EXTRA_UDFPS_ANIMATIONS := false
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
